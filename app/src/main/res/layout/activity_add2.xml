@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add New Details"
+        android:background="#E954CF58"
+        android:gravity="center"
+        android:id="@+id/label"
+        android:textColor="@color/white"
+        android:fontFamily="@font/acme"
+        android:textSize="25dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/label">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/c_name1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/label"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:hint="Company Name"
+                app:endIconMode="clear_text"
+                app:helperText="*Required"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/comp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/u_email1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c_name"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:hint="Email"
+                app:endIconMode="clear_text"
+                app:helperText="*Required"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/u_contact1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/u_email"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:hint="Contact"
+                app:endIconMode="clear_text"
+                app:helperText="*Required"
+                app:helperTextTextColor="#FF0000"
+                app:prefixText="+91"
+                app:startIconDrawable="@drawable/phone">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/u_location1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/u_contact"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:hint="Location"
+                app:endIconMode="clear_text"
+                app:helperText="*Required"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/location">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/u_product1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/u_location"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:hint="Product"
+                app:endIconMode="clear_text"
+                app:helperText="*Required"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/pest">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/u_price1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/u_product"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:hint="Price"
+                app:endIconMode="clear_text"
+                app:helperText="*Required"
+                app:helperTextTextColor="#FF0000"
+                app:prefixText="₹"
+                app:startIconDrawable="@drawable/price">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/curl1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/u_price"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="15dp"
+                android:hint="Image URL"
+                app:endIconMode="clear_text"
+                app:helperText="*Required"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/image">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/curl"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#E954CF58"
+                android:fontFamily="@font/acme"
+                android:text="Save"
+                android:textAllCaps="false"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/curl"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#E954CF58"
+                android:fontFamily="@font/acme"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

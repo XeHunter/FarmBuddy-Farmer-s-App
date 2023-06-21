@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/drawable-v24/buttondesign.xml" value="0.1495" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/drawable/add.xml" value="0.1495" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/drawable/cardback.xml" value="0.1955" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/drawable/rounded.xml" value="0.1495" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/drawable/search.xml" value="0.1495" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/drawable/stroke.xml" value="0.185" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/drawable/us.xml" value="0.157" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_about.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_add2.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_farm.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_ffpass.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_flogin.xml" value="0.2" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_fragment_infofrag.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_fragment_profrag.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_fsignup.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_fvendor.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_hvendor.xml" value="0.2" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_logins.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_logins2.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_main2.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_news_deatil.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_signup.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_vendorlogin.xml" value="0.2" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_weather.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_weather_main.xml" value="0.18826509075559308" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/activity_weathercon.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/example_item.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/fragment_fnew.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/fragment_infofrag.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/fragment_news.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/fragment_profrag.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/fragment_save.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/fragment_weather.xml" value="0.18826509075559308" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/list_item.xml" value="0.17421875" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/main_item.xml" value="0.23125" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/main_item2.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/main_item3.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/navhead2.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/navheader.xml" value="0.2" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/newsitem.xml" value="0.264" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/rate.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/update_popup.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/layout/weather_rv_item.xml" value="0.1905982905982906" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/menu/menu1.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/menu/menu2.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/menu/menu3.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/aryan/AndroidStudioProjects/Farmbuddy/app/src/main/res/menu/search.xml" value="0.23229166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

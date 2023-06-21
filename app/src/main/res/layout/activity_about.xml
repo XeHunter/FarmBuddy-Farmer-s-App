@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:id="@+id/lla1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/lli1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/arrow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="35dp"
+            android:fontFamily="@font/aladin"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lla1"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:justificationMode="inter_word"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/acme"
+        android:text="From ancient times to infinity, there is one and only industry that has
+        not lost it significance- what would be your answer? Agriculture is one of the traditional
+        trades the humans are performing yet to feed themselves. Though, it is a traditional industry
+        but nowadays it is becoming techo-oriented. The farmers are now open for new innovative   and productive technologies.\n\nThe main goal of farming apps is to optimize farming processes.
+        Although most of the features are available on the computers
+        laptops and migrating them into mobile devices and that is next
+        logical step which enables farmers to use technologies wherever they need to unlock.
+        Since most features for smart farming are already available on desktop computers and laptops, extending them to mobile devices is the next logical step, allowing farmers to use these technologies wherever they are.
+"
+        android:textSize="20dp" />
+
+</RelativeLayout>

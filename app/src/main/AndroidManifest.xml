@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.farmbuddy">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Farmbuddy"
+        tools:targetApi="31">
+        <activity
+            android:name=".NewsDeatilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".weathercon"
+            android:exported="false" />
+        <activity
+            android:name=".about"
+            android:exported="false" />
+        <activity
+            android:name=".AddActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".hvendor"
+            android:exported="false" />
+        <activity
+            android:name=".fvendor"
+            android:exported="false" />
+        <activity
+            android:name=".ffpass"
+            android:exported="false" />
+        <activity
+            android:name=".fsignup"
+            android:exported="false" />
+        <activity
+            android:name=".flogin"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".vendorlogin"
+            android:exported="false" />
+        <activity
+            android:name=".farm"
+            android:exported="false" />
+        <activity
+            android:name=".Logins"
+            android:exported="false" />
+        <activity
+            android:name=".main2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

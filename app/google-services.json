@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "574221365583",
+    "firebase_url": "https://farmbuddy-16a7e-default-rtdb.firebaseio.com",
+    "project_id": "farmbuddy-16a7e",
+    "storage_bucket": "farmbuddy-16a7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574221365583:android:3dfe4de14b799c8bba953a",
+        "android_client_info": {
+          "package_name": "com.example.farmbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574221365583-i87ntmhtdu98bgq8868pprrgf3fn3qte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGYYu5bIPDdR2Rdpf5vaY2fo6pNHryAEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574221365583-i87ntmhtdu98bgq8868pprrgf3fn3qte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

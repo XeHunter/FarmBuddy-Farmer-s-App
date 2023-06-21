@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/rateus" android:title="Rate us" android:icon="@drawable/star"/>
+    <item android:id="@+id/share" android:title="Share app" android:icon="@drawable/share"/>
+    <item android:id="@+id/contact" android:title="Contact us" android:icon="@drawable/contact"/>
+
+    <item  android:id="@+id/Other" android:title="Others">
+        <menu>
+            <item android:id="@+id/about" android:title="About us" android:icon="@drawable/about"/>
+            <item android:id="@+id/privacy" android:title="Privacy Policy" android:icon="@drawable/privacy"/>
+            <item android:id="@+id/out" android:title="Log out" android:icon="@drawable/exit"/>
+        </menu>
+
+    </item>
+</menu>
